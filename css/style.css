@@ -10,6 +10,7 @@ body{
     text-align: center;
     background: linear-gradient(to bottom, #6ab7f5, #fff);
     /* min-height: 100vh; */
+    transform: scale(0.9);
     overflow: hidden;
 }
 main{
@@ -17,6 +18,7 @@ main{
     margin-top: -2%;
     padding: 1rem;
     position: relative;
+    height: 100%;
 }
 
 .pokedex{
