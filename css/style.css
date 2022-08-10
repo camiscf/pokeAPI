@@ -9,21 +9,21 @@
 body{
     text-align: center;
     background: linear-gradient(to bottom, #6ab7f5, #fff);
-    min-height: 100vh;
+    /* min-height: 100vh; */
+    transform: scale(0.9);
+    overflow: hidden;
 }
 main{
     display: inline-block;
-    margin-top: 1%;
+    margin-top: 3%;
     padding: 1rem;
     position: relative;
-    height: 100%;
 }
 
-.pokedex {
+.pokedex{
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    max-width: 425px;;
+    max-width: 425px;
+    height: auto;
 }   
 
 .pokemon_image{
